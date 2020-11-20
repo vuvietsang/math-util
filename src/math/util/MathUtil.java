@@ -41,3 +41,10 @@ public class MathUtil {
 //cần tool để đồng bộ code từ máy mình lên server(github,gitLab,bitbucker)
 //tool có thể là :cmd,GUI,IDE
 //vì ta professional, ta chơi cmd
+
+//file đặc biệt để nói với git tool rằng ai lên server ai lên server ai ở lại local host
+//file này được gọi là .gitignore(file thuần text)
+//nó sẽ khác nhau tùy dự án, tùy vào IDE mình xài, ngôn ngữ lập trình mình xài
+//có 1 gã dev cực kì dễ thương đã làm sẵn file ứng với các IDE,NNLT rồi
+//xin anh ấy đem về xài htpps://gitignore.io
+
