@@ -34,7 +34,7 @@ public class MathUtilityTest {
         assertEquals(120, MathUtility.getFactorial(5));
         assertEquals(720, MathUtility.getFactorial(6));
     }
-    @Test(expected = SQLException.class)
+    @Test(expected = IllegalArgumentException.class)
     public void getFactorial_ThrownsException_IfInvalidArgument(){
         //ngoại lệ không phải là value để assert()
         //chỉ có thể chụp nó lại
